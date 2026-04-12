@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useParams, useRouteLoaderData } from "react-router";
 import { InstalledAppsContext } from "../context/InstalledAppsProvider";
+import { toast } from "react-toastify";
 
 const AppsDetailsPage = () => {
   const { id } = useParams();
@@ -10,6 +11,7 @@ const AppsDetailsPage = () => {
   // console.log(installedApps, "installedApps");
   const handleInstallButton = () => {
     setInstalledApps([...installedApps, expectedApp]);
+    toast.success(`${expectedApp.title} is successfully installed`);
   };
   return (
     <div className="container mx-auto my-10">

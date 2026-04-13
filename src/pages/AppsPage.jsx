@@ -8,7 +8,7 @@ const AppsPage = () => {
     <div className="container mx-auto my-20">
       <div className="text-center space-y-4">
         <h1 className="text-5xl font-bold">All Apps</h1>
-        <p className="text-gray-400 w-[50%] mx-auto">
+        <p className="text-gray-400 w-[80%] lg:w-[50%] mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate perferendis porro, illum quod animi cumque quidem sed nesciunt delectus a quos architecto ullam, asperiores
           neque, perspiciatis fugit amet. Eligendi.
         </p>

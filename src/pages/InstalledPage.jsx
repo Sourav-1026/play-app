@@ -36,7 +36,7 @@ const InstalledPage = () => {
     <div className="container mx-auto my-10">
       {installedApps.length == 0 ? (
         <div className="flex justify-center items-center py-30 bg-base-200 border border-gray-300 shadow-md rounded-md ">
-          <h1 className="text-3xl font-bold">Installed Apps Section is Empty</h1>
+          <h1 className="text-3xl font-bold text-center">Installed Apps Section is Empty</h1>
         </div>
       ) : (
         <div className="space-y-5">

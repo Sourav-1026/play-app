@@ -27,4 +27,4 @@
 
 ## 🚀 Live Demo
 
-🔗 https://play-app-cyan.vercel.app/apps
+🔗 https://play-app-cyan.vercel.app

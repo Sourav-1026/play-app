@@ -4,7 +4,7 @@ import { Link, useRouteLoaderData } from "react-router";
 const TrendingApps = () => {
   const apps = useRouteLoaderData("root");
   return (
-    <div className="container mx-auto my-20">
+    <div className="container mx-auto my-10 lg:my-20">
       <div className="text-center space-y-3">
         <h1 className="text-5xl font-bold">Trending Apps</h1>
         <p className="text-gray-400 text-lg w-[80%] lg:w-[50%] mx-auto">

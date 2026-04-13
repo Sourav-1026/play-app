@@ -5,11 +5,19 @@ import { toast } from "react-toastify";
 
 const AppsDetailsPage = () => {
   const { id } = useParams();
+
   const apps = useRouteLoaderData("root");
   const expectedApp = apps.find((app) => app.id === parseInt(id));
+
   const { installedApps, setInstalledApps } = useContext(InstalledAppsContext);
-  // console.log(installedApps, "installedApps");
+
   const handleInstallButton = () => {
+    const isFound = installedApps.find((iapp) => iapp.id === expectedApp.id);
+    if (isFound) {
+      toast.error(`${isFound.title} is already installed`);
+      return;
+    }
+
     setInstalledApps([...installedApps, expectedApp]);
     toast.success(`${expectedApp.title} is successfully installed`);
   };

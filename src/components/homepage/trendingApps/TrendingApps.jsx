@@ -7,12 +7,12 @@ const TrendingApps = () => {
     <div className="container mx-auto my-20">
       <div className="text-center space-y-3">
         <h1 className="text-5xl font-bold">Trending Apps</h1>
-        <p className="text-gray-400 text-lg w-[50%] mx-auto">
+        <p className="text-gray-400 text-lg w-[80%] lg:w-[50%] mx-auto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum maxime dolores quisquam ad similique id provident veniam dolorum nihil ipsa fuga alias deleniti debitis aut, cumque qui in.
           Nesciunt, ipsa?
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 lg:px-0 mt-5">
         {apps.slice(0, 9).map((app, ind) => (
           <div key={ind} className="card bg-base-100  p-3.5 shadow-sm border border-gray-200 rounded-md">
             <figure>

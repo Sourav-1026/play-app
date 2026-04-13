@@ -1,16 +1,30 @@
-# React + Vite
+# 🎮 Play Apps Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Description
 
-Currently, two official plugins are available:
+- A Play Store–inspired web application where users can explore trending apps, view detailed app information, install or uninstall apps, and track their activity through an interactive dashboard with visual insight
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ⚙️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- React Router
+- Tailwind CSS, DaisyUI
+- JavaScript (ES6+)
+- React-Toastify (NPM Package)
+- JSON (for product data)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ 3 Features About My Project
+
+- 📱 Browse trending and all available apps with a clean and intuitive UI, similar to a modern app marketplace.
+- ⬇️ Install apps with a single click and manage them easily from the installed apps page, including uninstall functionality.
+- 📊 Visualize installed vs uninstalled apps using a dynamic pie chart for better insights into user activity.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://play-app-cyan.vercel.app/apps
